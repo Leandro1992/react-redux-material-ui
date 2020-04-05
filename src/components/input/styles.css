@@ -1,0 +1,26 @@
+.input {
+  position: relative;
+  /*display: inline-block;*/
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--grey-five);
+  }
+
+  .left-icon {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    fill: var(--grey-five);
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
